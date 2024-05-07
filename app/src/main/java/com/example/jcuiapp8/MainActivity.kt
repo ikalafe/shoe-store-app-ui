@@ -77,6 +77,7 @@ fun MainView(modifier: Modifier = Modifier) {
             .background(AppDark)
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
+            Spacer(modifier = Modifier.height(20.dp))
             TopHeader()
             Text(
                 text = "Collections",
@@ -205,6 +206,7 @@ private fun ProductBox() {
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
+                    Spacer(modifier = Modifier.height(60.dp))
                 }
             }
         }
